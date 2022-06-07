@@ -13,7 +13,7 @@
 **Array(s), ArrayList(s), and/or 2D array(s):**
 * `ArrayList\<Game\> gameList` stores all the available games that have been programmed and are playable.
     * Right now, there is Tic-Tac-Toe and Single Player Tic-Tac-Toe. Examples of games that can be added to the ArrayList are: Four in a Row, and variations of that
-* `int[] board` stores the game board for the `Game` object: each player's turn is logged onto the board.
+* `int[][] board` stores the game board for the `Game` object: each player's turn is logged onto the board.
 * `int[][][] boardCoords` stores the x and y bounds (max value coordinate) for each element of `board[]`
     * Makes determining where mouse was pressed during a player's turn easier
 
